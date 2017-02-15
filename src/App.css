@@ -4,3 +4,10 @@
   color: #666;
   font-family: 'Oswald', monospace;
 }
+
+.react-count-down .subtitle {
+    font-size: 25px;
+    font-family: 'Oswald', monospace;
+    color: #666;
+    text-align: center;
+}
