@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-const endDate = new Date(2017, 1, 16, 13, 7);
+const endDate = new Date(2017, 1, 16, 14, 7);
 
 const getTimeRemaining = (endDate) => {
   const t = Date.parse(endDate) - Date.parse(new Date());
