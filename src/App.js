@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-const endDate = new Date(2017, 1, 16, 14, 7);
+const endDate = new Date(Date.parse("13. juni 2017"));
 
 const getTimeRemaining = (endDate) => {
   const t = Date.parse(endDate) - Date.parse(new Date());
@@ -52,7 +52,7 @@ class App extends Component {
         <span className="date">
           {remaining}
         </span>
-        <p className="subtitle">Møt opp på kontoret.</p>
+        <p className="subtitle">til innlevering av master</p>
       </div>
     )
   };
